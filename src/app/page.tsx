@@ -1,13 +1,20 @@
 import CardInfo from "@/components/CardInfo"
-import Layout from "@/layout/Layout"
+import Footer from "@/components/Footer"
+import Header from "@/components/Header"
 
 const Home = () => {
   return (
+  <>
     <main>
-      <Layout>
-        <CardInfo text="This is my portfolio"/>
-      </Layout>
+      <div>
+        <Header />
+        <div className="flex flex-col items-center justify-between p-24">
+          <CardInfo text="This is my portfolio"/>
+        </div> 
+      </div>
     </main>
+    <Footer/>
+  </>
   )
 }
 
