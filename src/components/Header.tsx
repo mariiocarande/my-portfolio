@@ -8,13 +8,16 @@ const Header: React.FC = () => {
       </div>
       <div className="flex gap-4">
         <div>
-          1
+          Home
         </div>
         <div>
-          2
+          About
         </div>
         <div>
-          3
+          Projects
+        </div>
+        <div>
+          Contact
         </div>
       </div>
     </div>

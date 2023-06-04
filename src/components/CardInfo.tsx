@@ -12,7 +12,7 @@ const CardInfo: React.FC<Props> = ({ text }) => (
     </h1>
     <div className="flex justify-center">
       <Image
-        src="/scaloni.png"
+        src="/mario.jpg"
         width={300}
         height={300}
         alt="This is an image of me"
