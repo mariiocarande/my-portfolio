@@ -6,7 +6,7 @@ interface Props {
 }
 
 const CardInfo: React.FC<Props> = ({ text }) => (
-  <div className="flex flex-col rounded-md gap-4 bg-gray-400 p-10 h-full">
+  <div className="flex flex-col rounded-md gap-4 bg-gradient-to-r from-slate-300 to-slate-500 p-10 h-full">
     <h1 className="flex justify-center text-black text-2xl">
       {text}
     </h1>
@@ -16,7 +16,7 @@ const CardInfo: React.FC<Props> = ({ text }) => (
         width={300}
         height={300}
         alt="This is an image of me"
-        className="rounded-full shadow-2xl"
+        className="rounded-full shadow-2xl saturate-200"
       />
     </div>
     <p className="text-black">

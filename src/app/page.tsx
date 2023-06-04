@@ -2,9 +2,8 @@ import CardInfo from "@/components/CardInfo"
 import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 
-const Home = () => {
-  return (
-  <>
+const Home = () => (
+  <div className="bg-gradient-to-r from-slate-500 to-slate-800 h-screen">
     <main>
       <div>
         <Header />
@@ -14,8 +13,7 @@ const Home = () => {
       </div>
     </main>
     <Footer/>
-  </>
-  )
-}
+  </div>
+)
 
 export default Home
